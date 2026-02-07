@@ -9,7 +9,7 @@ const storyPoints = [
         title: 'Artisanal Craft',
         subtitle: 'Hands That Shape Dreams',
         description: 'Each piece begins with skilled artisans in our Nagaland studio, where traditional techniques meet contemporary vision.',
-        image: 'https://images.unsplash.com/photo-1558171013-4c088753af8f?w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80',
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const storyPoints = [
         title: 'Sustainable',
         subtitle: 'Mindful by Design',
         description: 'From organic fabrics to natural dyes, every choice we make honors both the wearer and the earth.',
-        image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80',
+        image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80',
     },
 ];
 
@@ -165,8 +165,8 @@ export default function BrandEthos() {
                                 key={index}
                                 onClick={() => setActiveStory(index)}
                                 className={`h-1 transition-all duration-500 ${index === activeStory
-                                        ? 'w-8 bg-[var(--color-ink)]'
-                                        : 'w-4 bg-[var(--color-stone)]'
+                                    ? 'w-8 bg-[var(--color-ink)]'
+                                    : 'w-4 bg-[var(--color-stone)]'
                                     }`}
                             />
                         ))}
